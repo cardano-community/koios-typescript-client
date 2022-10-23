@@ -1,6 +1,13 @@
 {
   "name": "koios-typescript-client",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/cardano-community/koios-typescript-client",
+  "keywords": [
+    "koios",
+    "cardano",
+    "cardano api"
+  ],
   "main": "./build/cjs/index.js",
   "module": "./build/esm/index.js",
   "types": "./build/src/index.d.ts",
@@ -63,5 +70,8 @@
   },
   "overrides": {
     "semver-regex": "3.1.4"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0"
   }
 }
